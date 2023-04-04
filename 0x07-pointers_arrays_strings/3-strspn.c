@@ -20,6 +20,7 @@ for (p = accept; *p != '\0'; p++)
 if (*s == *p)
 {
 count++;
+break;
 }
 }
 if (*p == '\0')
